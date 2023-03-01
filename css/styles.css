@@ -5,13 +5,6 @@ body {
   padding: 0;
 }
 
-/*.mainNav{
-  width: 100%;
-  height: 120px;
-  background-color: #FE5E41;
-
-}*/
-
 
 .main-nav {
   background-color: #FE5E41;
@@ -657,7 +650,7 @@ font-size: 28px;
        }
 
        .popup-input {
-        width: 95%;
+        width: 93%;
         height: 30px;
   background-color: #F2F2F2;
   border: 2px solid #F2F2F2; ;
@@ -673,7 +666,7 @@ font-size: 14px;
 
 
   .popup-textarea {
-  width: 95%; 
+  width: 93%; 
   height: 90px;
   padding: 10px;
   margin-top:10px ;
@@ -728,10 +721,12 @@ font-size: 14px;
         display: block;
       }
 
+  
+
 
       
 
-/* Media Queries ---------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Milos - For mobile screen --------------------------------------------------------------*/
 @media only screen and (max-width: 768px) {
     .hamburger-menu {
     order: 1;
