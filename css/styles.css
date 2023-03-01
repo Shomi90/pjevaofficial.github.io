@@ -417,6 +417,7 @@ font-size: 11px;
             justify-content: flex-start ;
             align-items: center;
             margin-top: 30px;
+
         }
 
      
@@ -538,6 +539,11 @@ line-height: 24px;
 
 .description-image img {
   width:550px;
+}
+
+
+.description-button{
+  padding-bottom: 30px;
 }
 
       .description-button button {
@@ -740,6 +746,7 @@ align-items: center;
   height: 470px;
   background-color: #F2F2F2;
   padding: 20px;
+  padding-bottom: 45px;
 }
 
  .select-container{
@@ -783,7 +790,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-padding-bottom: 30px;
+padding-bottom: 50px;
 }
 
 
