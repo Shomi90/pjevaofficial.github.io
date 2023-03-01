@@ -284,9 +284,25 @@
 
 <div class="overlay">
       <div class="popup" id="myPopup">
-        <button onclick="closePopup()" >Close</button>
-        <h2>Popup Title</h2>
-        <p>Popup content here</p>
+        <div class="close-icon">
+            <h2>Contact us</h2>
+            <span onclick="closePopup()"><i class="fas fa-times"></i></span>
+        </div>
+          <div class="popup-text">
+            <p>We’ll get back to you as soon as possible.</p>
+        </div>
+          <div class="input-box">
+            <input type="text" placeholder="Your e-mail" class="popup-input">
+            <textarea placeholder="Your message" class="popup-textarea"></textarea>
+        </div>              
+         <div class="popup-buttons">
+                       <button onclick="closePopup()">Close</button>
+                       <button onclick="openPopup()">Send message</button>
+                   </div>
+        
+        
+       
+         
       </div>
     </div>
  
