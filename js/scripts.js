@@ -1,27 +1,16 @@
-/*!
-* Start Bootstrap - Agency v7.0.11 (https://startbootstrap.com/theme/agency)
-* Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
-*/
-//
-// Scripts
-// 
 
-// window.addEventListener('DOMContentLoaded', event => {
+document.addEventListener("DOMContentLoaded", function() {
+  function openPopup() {
+    console.log("milos");
+    var popup = document.querySelector(".popup");
+    popup.classList.add("popup-active");
+  }
 
-//     // Navbar shrink function
-//     var navbarShrink = function () {
-//         const navbarCollapsible = document.body.querySelector('#mainNav');
-//         if (!navbarCollapsible) {
-//             return;
-//         }
-//         if (window.scrollY === 0) {
-//             navbarCollapsible.classList.remove('navbar-shrink')
-//         } else {
-//             navbarCollapsible.classList.add('navbar-shrink')
-//         }
-
-//     };
+  // Get the button element and add an onclick event listener to call the openPopup function
+  var button = document.querySelector("#myButton");
+  button.addEventListener("click", openPopup);
+});
+        
 
 //     // Shrink the navbar 
 //     navbarShrink();
@@ -52,3 +41,5 @@
 //     });
 
 // });
+
+
